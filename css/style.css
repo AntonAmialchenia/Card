@@ -1,0 +1,72 @@
+/* .cont, .post, .title, .prise, .stars, .btn { border: 1px solid #000} */
+
+body {
+    width: 320px;
+}
+.cont {   
+    display: flex;
+    flex-direction: column;
+}
+.post {
+    width: 280px;
+    height: 420px;
+    margin: auto;
+    background: url(../images/Post.png) no-repeat center;
+    background-size: cover;
+}
+.post__3d {
+    margin: 135px 92px 125px 90px;  
+}
+.post__ac {
+    margin-left: 10px;
+}
+.title {
+    margin: auto;
+    width: 280px; 
+    height: 75px;    
+}
+.title h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: "Oswald";
+    color: #616161;
+    line-height: 0.9;
+    text-align: center;
+}
+.prise {
+    margin: auto;
+    width: 280px;
+    height: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.prise__one { 
+    margin-right: 15px;  
+    font-size: 30px;
+    font-family: "Oswald";
+    color: #242323;      
+}
+.prise__tow {
+    
+
+    font-size: 19px;
+    font-family: "Oswald";
+    color: #868282;
+    text-decoration: line-through;
+    line-height: 1.421;
+}
+.stars {
+    margin: auto;
+    width: 280px;
+    text-align: center;
+}
+.btn {
+    margin: auto;
+    width: 280px;
+    height: 75px;
+    text-align: center;
+}
+.btn img {
+    margin-top: 5px;
+}
